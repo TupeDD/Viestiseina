@@ -1,0 +1,59 @@
+body {
+  background-color: black;
+}
+::-webkit-input-placeholder {
+  text-align: center;
+}
+textarea {
+  resize: none;
+  width: auto;
+  height: auto;
+  outline: none;
+  color: red;
+  background-color: black;
+  border: 0px solid black;
+  margin: 7px;
+  padding: 7px;
+  font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+  font-size: 30px;
+}
+a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 10px 21px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  font-family: sans-serif;
+}
+a:hover, a:active {
+  background-color: red;
+}
+#header {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+#all {
+  text-align: center;
+}
+#section {
+  border: 1px solid red;
+  height: auto;
+  width: auto;
+}
+#footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: red;
+  text-align: center;
+  font-family: sans-serif;
+  color: white;
+}
+p {
+  color: red;
+}
